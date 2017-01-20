@@ -21,6 +21,9 @@ describe CsvTool do
 
   describe '#remove_row_with_value' do
     it 'removes the row from the csv hash array that contains a certain value' do
+      expected = []
+      actual = CsvTool::remove_row_with_value(csv_hash_array, 'First name', 'tyler')
+      expect(actual).to eq(expected)
     end
   end
 end
