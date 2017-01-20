@@ -1,5 +1,5 @@
-require "csv_tool/version"
 require "csv"
+require "csvtool/version"
 
 class CsvTool
   def self.convert_to_hash_array(csv_array)
