@@ -6,8 +6,8 @@ require 'csv_tool/version'
 Gem::Specification.new do |spec|
   spec.name          = "csv_tool"
   spec.version       = CsvTool::VERSION
-  spec.authors       = ["ttymed"]
-  spec.email         = ["tyler.boright@gmail.com"]
+  spec.authors       = ["ru-lai"]
+  spec.email         = ["lupin3.ken@gmail.com"]
 
   spec.summary       = %q{a tool that helps you manipulate csv files}
   spec.homepage      = "https://github.com/ru-lai/ruby-csv-tool"
